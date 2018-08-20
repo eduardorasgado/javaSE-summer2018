@@ -23,6 +23,22 @@ public class HolaMundo {
 		// booleanos o logicos
 		boolean isVisible = true;
 		boolean funciona = false;
+		
+		System.out.println(generoFemenino);
+		
+		//todas estas son distintas
+		int $variable = 1;
+		int _variable = 2;
+		int variable = 3;
+		int variable4 = 4;
+		// esto no puede ser:
+		// int 5variable = 5;
+		
+		// Constantes
+		int VALOR = 0;
+		int VALOR_MAXIMO = 2;
+		System.out.println(VALOR_MAXIMO);
+		
 	}
 
 }
