@@ -39,6 +39,12 @@ public class HolaMundo {
 		int VALOR_MAXIMO = 2;
 		System.out.println(VALOR_MAXIMO);
 		
+		// Lower camel case
+		int minimoValor = 4;
+		
+		//Upper camel case
+		// Siempre debe ser el nombre de nuestras clases
+		// int MinValor =  6;s
 	}
 
 }
