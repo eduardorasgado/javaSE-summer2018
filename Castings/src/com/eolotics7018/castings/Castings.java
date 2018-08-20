@@ -33,6 +33,20 @@ public class Castings {
 		// ojo, puede existir perdida de datos
 		// el dato se puede truncar
 		System.out.println(a);
+		
+		// casteos con char
+		int codigo = 97;
+		// casteando para obtener el codigo ASCII
+		char charCode = (char) codigo;
+		System.out.println(charCode);
+		
+		// rangos que sobrepasan los castings
+		short number = 256;
+		byte numberByte = (byte) number;
+		
+		// susceptible a perdida de datos
+		// TIP: NO castear datos a formatos no soportados
+		System.out.println(numberByte);
 	}
 
 }
