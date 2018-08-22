@@ -63,6 +63,23 @@ public class Operators {
 		
 		// Operadores relacionales
 		System.out.println("q:"+q+" > p:"+p+" -> " + (q > p));
+		System.out.println("q:"+q+" < p:"+p+" -> " + (q < p));
+		
+		int q2 = 5;
+		int p2 = 5;
+		System.out.println("q2:"+q2+" >= p2:"+p2+" -> " + (q2 >= p2));
+		System.out.println("q2:"+q2+" <= p2:"+p2+" -> " + (q2 <= p2));
+		
+		// Operadores logicos
+		boolean n = false;
+		boolean m = true;
+		// operador and
+		System.out.println("n && m ->"+(n && m));
+		// operador or
+		System.out.println("n || m ->"+(n || m));
+		// operador not
+		System.out.println("!n ->"+(!n));
+		System.out.println("!m ->"+(!m));
 	}		
 
 }
