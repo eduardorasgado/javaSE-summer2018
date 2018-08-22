@@ -86,7 +86,7 @@ public class ControlesDeFlujo {
 		do {
 			System.out.println("k es igual o menor a 5, k es: " + k);
 			k++;
-		} while (k<=5);
+		} while (k <= 5);
 		System.out.println("Este flujo continua...2");
 		
 		// for loop
@@ -101,11 +101,17 @@ public class ControlesDeFlujo {
 		 
 		 // agregando elementos al arreglo
 		 for(int i = 0; i < 5; i++) {
-			 numeros[i] = 1;
+			 numeros[i] = i * 2;
 		 }
 		 // imprimiendo los datos del arreglo
 		 for(int i = 0; i < 5; i++) {
-			 System.out.println(numeros[i]);
+			 System.out.println("numeros[" + i + "]: " + numeros[i]);
 		 }
+		 
+		 // forEach loop
+		 
+		 for (int i : numeros) {
+			System.out.println(numeros[i]);
+		}
 	}
 }
