@@ -3,7 +3,7 @@ package com.Eolotics7018.operators;
 public class Operators {
 
 	public static void main(String[] args) {
-		// Operadores aritmeticos
+		// Operadores aritmeticos **************************
 		System.out.println("Operadores Aritméticos");
 		int a = 1;
 		int aa = a+a;
@@ -24,6 +24,21 @@ public class Operators {
 		
 		//modulo
 		System.out.println(7%2);
+		
+		// operadores de asignacion *****************************
+		int f = 2;
+		int g = 3;
+		f += g;
+		System.out.println(f);
+		
+		int number1 = 4;
+		int number2 = 5;
+		// tambien podemos usar -= /= %=
+		number1 -= number2;
+		System.out.println(number1);
+		
+		// Operadores de incremento y decremento ***************
+		
 	}
 
 }
