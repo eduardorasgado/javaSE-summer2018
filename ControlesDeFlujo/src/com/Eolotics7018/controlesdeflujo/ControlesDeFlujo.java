@@ -111,7 +111,9 @@ public class ControlesDeFlujo {
 		 // forEach loop
 		 
 		 for (int i : numeros) {
-			System.out.println(numeros[i]);
+			 // recordar que en foreach solo tenemos acceso al dato
+			 // y no al indice del arreglo en cuestion
+			System.out.println(i);
 		}
 	}
 }
