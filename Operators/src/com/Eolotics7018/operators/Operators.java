@@ -51,6 +51,18 @@ public class Operators {
 		
 		// aqui vemos que ya se imprime el incremento
 		System.out.println(l);
-	}
+		
+		// Operadores de equidad
+		int q = 5;
+		int p = 4;
+		// true o false
+		System.out.println(q == p);
+		System.out.println("q es distinto de p ? "+(q != p));
+		
+		// Operadores relacionales y logicos ******************
+		
+		// Operadores relacionales
+		System.out.println("q:"+q+" > p:"+p+" -> " + (q > p));
+	}		
 
 }
