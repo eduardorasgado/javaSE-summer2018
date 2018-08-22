@@ -35,15 +35,20 @@ public class Arrays {
 		channelArray[0][0][2] = 'X';
 		System.out.println(channelArray[0][0][2]);
 		
-		char names[] = new char[3];
+		char names[] = new char[5];
 		
 		names[0] = 'h';
-		names[1] = 'e';
-		names[2] = 'y';
+		names[1] = 'o';
+		names[2] = 'l';
+		names[3] = 'a';
 		
 		for (int i = 0; i < names.length; i++) {
 			System.out.println(names[i]);
 		}
+		
+		char monkey[][][][] = new char[2][3][2][2];
+		monkey[1][0][0][1] = 'M';
+		System.out.println(monkey[1][0][0][1]);
 	}
 
 }
