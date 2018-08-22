@@ -33,12 +33,24 @@ public class Operators {
 		
 		int number1 = 4;
 		int number2 = 5;
-		// tambien podemos usar -= /= %=
+		// tambien podemos usar -= /= %= *=
 		number1 -= number2;
 		System.out.println(number1);
 		
 		// Operadores de incremento y decremento ***************
 		
+		int l = 3;
+		// con ++l primero se incrementa y luego se asigna
+		// imprime 4
+		System.out.println(++l);
+		
+		l = 3;
+		// con l++ primero se asigna luego se incrementa
+		// imprime 3, no alcanza a imprimir el incremento
+		System.out.println(l++);
+		
+		// aqui vemos que ya se imprime el incremento
+		System.out.println(l);
 	}
 
 }
