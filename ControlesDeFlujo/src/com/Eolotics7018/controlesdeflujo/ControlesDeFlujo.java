@@ -5,7 +5,7 @@ public class ControlesDeFlujo {
 	public static void main(String[] args) {
 		// Controles de flujo de codigo
 		
-		// If/else
+		// If/else ****************************************************
 		int q = 8;
 		int p = 5;
 		
@@ -65,5 +65,23 @@ public class ControlesDeFlujo {
 			System.out.println("Numero invalido, no existe ese mes");
 			break;
 		}
+		
+		// While loop ********************************************************************
+		
+		// While
+		int e = 1;
+		while (e <= 5) {
+			System.out.println("e es igual o menor a 5, e es: " + e);
+			e++;
+		}
+		System.out.println("Este flujo continua");
+		
+		// Do while
+		// Este flujo se ejecuta al menos una vez
+		int k = 0;
+		do {
+			System.out.println("k es igual o menor a 5, k es: " + k);
+			k++;
+		} while (k<=5);
 	}
 }
