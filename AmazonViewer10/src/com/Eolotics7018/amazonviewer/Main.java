@@ -35,10 +35,10 @@ public class Main {
 				System.out.println("Elegiste salir");
 				break;
 			case 1:
-				System.out.println("Elegiste Series");
+				showMovies();
 				break;
 			case 2:
-				System.out.println("Elegiste Movies");
+				System.out.println("Elegiste Series");
 				break;
 			case 3:
 				System.out.println("Elegiste Books");
@@ -52,6 +52,31 @@ public class Main {
 				break;
 			}
 		} while (exit != 0);
+	}
+	
+	public static void showMovies() {
+		int exit = 0;
+		do {
+			System.out.println();
+			System.out.println("::MOVIES::");
+			System.out.println();
+		} while (exit != 0);
+	}
+	
+	public static void showSeries() {
+		
+	}
+	
+	public static void showChapters() {
+		
+	}
+	
+	public static void showBooks() {
+		
+	}
+	
+	public static void showMagazine() {
+		
 	}
 
 }
