@@ -10,7 +10,7 @@ public class Main {
 		// program main function
 		// creando una instancia
 		Movie movie = new Movie("Coco", "Animation", (short) 2017);
-		
+		movie.setTitle("Rambo");
 		movie.showData();
 		
 		showMenu();
