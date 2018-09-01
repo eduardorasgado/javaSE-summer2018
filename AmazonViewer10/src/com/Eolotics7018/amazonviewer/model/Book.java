@@ -3,15 +3,25 @@ package com.Eolotics7018.amazonviewer.model;
 import java.util.Date;
 
 public class Book {
-	int id;
-	String title;
-	Date editionDate;
-	String editorial;
-	String[] authors;
-	String isbn;
+	private int id;
+	private String title;
+	private Date editionDate;
+	private String editorial;
+	private String[] authors;
+	private String isbn;
 	// si el libro ya fue leido
-	boolean read;
+	private boolean read;
 	// tiempo en qu el libro fue leido
-	int timeRead;
+	private int timeRead;
+	
+	public Book(String title, Date editionDate, String editorial, String isbn) {
+		super();
+		this.title = title;
+		this.editionDate = editionDate;
+		this.editorial = editorial;
+		this.isbn = isbn;
+	}
+	
+	
 
 }
