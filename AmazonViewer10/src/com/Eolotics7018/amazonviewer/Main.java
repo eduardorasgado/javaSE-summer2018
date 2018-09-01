@@ -1,5 +1,7 @@
 package com.Eolotics7018.amazonviewer;
 
+import java.util.Date;
+
 import com.Eolotics7018.amazonviewer.model.Movie;
 
 public class Main {
@@ -24,6 +26,8 @@ public class Main {
 			System.out.println("2. Series");
 			System.out.println("3. Books");
 			System.out.println("4. Magazines");
+			System.out.println("5. Report");
+			System.out.println("6. Report Today");
 			System.out.println("0. Exit");
 			System.out.println("\n");
 			
@@ -38,13 +42,20 @@ public class Main {
 				showMovies();
 				break;
 			case 2:
-				System.out.println("Elegiste Series");
+				showSeries();
 				break;
 			case 3:
-				System.out.println("Elegiste Books");
+				showBooks();
 				break;
 			case 4:
-				System.out.println("Elegiste Magazines");
+				showMagazines();
+				break;
+			case 5:
+				makeReport();
+				break;
+			case 6:
+				// el de la sobrecarga de metodos
+				makeReport(new Date());
 				break;
 				
 			default:
@@ -90,13 +101,22 @@ public class Main {
 		} while (exit != 0);
 	}
 	
-	public static void showMagazine() {
+	public static void showMagazines() {
 		int exit = 0;
 		do {
 			System.out.println();
 			System.out.println("::MAGAZINES::");
 			System.out.println();
 		} while (exit != 0);
+	}
+	
+	// SOBRECARGA DE METODOS
+	public static void makeReport() {
+		
+	}
+	
+	public static void makeReport(Date date) {
+		
 	}
 
 }
