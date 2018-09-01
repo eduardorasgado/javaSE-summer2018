@@ -64,19 +64,39 @@ public class Main {
 	}
 	
 	public static void showSeries() {
-		
+		int exit = 0;
+		do {
+			System.out.println();
+			System.out.println("::SERIES::");
+			System.out.println();
+		} while (exit != 0);
 	}
 	
 	public static void showChapters() {
-		
+		int exit = 0;
+		do {
+			System.out.println();
+			System.out.println("::CHAPTERS::");
+			System.out.println();
+		} while (exit != 0);
 	}
 	
 	public static void showBooks() {
-		
+		int exit = 0;
+		do {
+			System.out.println();
+			System.out.println("::BOOKS::");
+			System.out.println();
+		} while (exit != 0);
 	}
 	
 	public static void showMagazine() {
-		
+		int exit = 0;
+		do {
+			System.out.println();
+			System.out.println("::MAGAZINES::");
+			System.out.println();
+		} while (exit != 0);
 	}
 
 }
