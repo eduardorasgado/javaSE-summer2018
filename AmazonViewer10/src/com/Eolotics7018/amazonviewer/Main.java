@@ -1,9 +1,15 @@
 package com.Eolotics7018.amazonviewer;
 
+import com.Eolotics7018.amazonviewer.model.Movie;
+
 public class Main {
 
 	public static void main(String[] args) {
 		// program main function
+		
+		Movie movie = new Movie();
+		movie.title = "Coco";
+		movie.duration = 120;
 
 		// variable para salir
 		int exit = 0;
