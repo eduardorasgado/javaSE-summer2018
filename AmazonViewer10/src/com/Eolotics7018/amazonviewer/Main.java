@@ -6,14 +6,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		// program main function
-		
-		Movie movie = new Movie();
-		movie.title = "Coco";
-		movie.duration = 120;
-
+		showMenu();
+	}
+	
+	public static void showMenu() {
 		// variable para salir
-		int exit = 0;
-		
+				int exit = 0;
+				
 		// bucle de ejecucion inicial
 		do {
 			System.out.println("");
