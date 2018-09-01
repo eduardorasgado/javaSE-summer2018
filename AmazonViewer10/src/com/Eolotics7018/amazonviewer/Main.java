@@ -20,6 +20,32 @@ public class Main {
 			System.out.println("3. Books");
 			System.out.println("4. Magazines");
 			System.out.println("0. Exit");
+			System.out.println("\n");
+			
+			// Leer la respuesta del usuario
+			int opcion = 1;
+			
+			switch (opcion) {
+			case 0:
+				System.out.println("Elegiste salir");
+				break;
+			case 1:
+				System.out.println("Elegiste Series");
+				break;
+			case 2:
+				System.out.println("Elegiste Movies");
+				break;
+			case 3:
+				System.out.println("Elegiste Books");
+				break;
+			case 4:
+				System.out.println("Elegiste Magazines");
+				break;
+				
+			default:
+				System.out.println("Opcion inválida");
+				break;
+			}
 		} while (exit != 0);
 	}
 
